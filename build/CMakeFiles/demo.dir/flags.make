@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/admin1/Sergi-0/workspace/projects/rk2/include
+CXX_INCLUDES = -I/home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/include
 
 CXX_FLAGS = -std=gnu++11
 

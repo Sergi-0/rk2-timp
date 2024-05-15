@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/admin1/Sergi-0/workspace/projects/rk2
+CMAKE_SOURCE_DIR = /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/admin1/Sergi-0/workspace/projects/rk2/build
+CMAKE_BINARY_DIR = /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/RK2-TIMP.dir/depend.make
@@ -72,16 +72,16 @@ include CMakeFiles/RK2-TIMP.dir/flags.make
 CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o: CMakeFiles/RK2-TIMP.dir/flags.make
 CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o: ../sources/singleton.cpp
 CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o: CMakeFiles/RK2-TIMP.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o -MF CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o.d -o CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o -c /home/admin1/Sergi-0/workspace/projects/rk2/sources/singleton.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o -MF CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o.d -o CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o -c /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/sources/singleton.cpp
 
 CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Sergi-0/workspace/projects/rk2/sources/singleton.cpp > CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/sources/singleton.cpp > CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.i
 
 CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Sergi-0/workspace/projects/rk2/sources/singleton.cpp -o CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/sources/singleton.cpp -o CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.s
 
 # Object files for target RK2-TIMP
 RK2__TIMP_OBJECTS = \
@@ -93,7 +93,7 @@ RK2__TIMP_EXTERNAL_OBJECTS =
 libRK2-TIMP.a: CMakeFiles/RK2-TIMP.dir/sources/singleton.cpp.o
 libRK2-TIMP.a: CMakeFiles/RK2-TIMP.dir/build.make
 libRK2-TIMP.a: CMakeFiles/RK2-TIMP.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRK2-TIMP.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libRK2-TIMP.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/RK2-TIMP.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RK2-TIMP.dir/link.txt --verbose=$(VERBOSE)
 
@@ -106,6 +106,6 @@ CMakeFiles/RK2-TIMP.dir/clean:
 .PHONY : CMakeFiles/RK2-TIMP.dir/clean
 
 CMakeFiles/RK2-TIMP.dir/depend:
-	cd /home/admin1/Sergi-0/workspace/projects/rk2/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Sergi-0/workspace/projects/rk2 /home/admin1/Sergi-0/workspace/projects/rk2 /home/admin1/Sergi-0/workspace/projects/rk2/build /home/admin1/Sergi-0/workspace/projects/rk2/build /home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles/RK2-TIMP.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build /home/admin1/Sergi-0/workspace/projects/rk2/rk2-timp/build/CMakeFiles/RK2-TIMP.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/RK2-TIMP.dir/depend
 
