@@ -1,0 +1,4 @@
+/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles/RK2-TIMP.dir
+/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles/demo.dir
+/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles/edit_cache.dir
+/home/admin1/Sergi-0/workspace/projects/rk2/build/CMakeFiles/rebuild_cache.dir
